@@ -15,9 +15,9 @@ Instead of letting good thoughts disappear, I write them down here so I can revi
 - 📚 Book notes and key takeaways
 - 💡 Ideas and random curiosities
 - 🧠 Things I've learned
+- 🌍 Experiences
 - 💼 Business concepts and experiments
 - 🌱 Personal growth and life lessons
-- 🌍 Travel experiences
 - 🎨 Creativity, art, and inspiration
 - 🛠 Practical guides and playbooks
 - 📖 Reflections and thoughts
