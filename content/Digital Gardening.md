@@ -1,32 +1,40 @@
 ---
-title: "🌱 Digital Gardening"
+title: "Nimi's Knowledge Repo"
 ---
 
-# Digital Gardening
+# Welcome 🌿
 
-Digital Gardening is a shift away from chronologically ordered feeds (like standard blogs or social media posts) towards a topological web of ideas.
+## What is this?
 
-## Key Differences
+This is my personal knowledge repository—a place where I collect ideas, lessons, observations, and experiences worth remembering.
 
-| Feature | Traditional Blog | Digital Garden |
-| :--- | :--- | :--- |
-| **Organization** | Reverse-chronological (newest first) | Associative web (by topic / links) |
-| **Editing** | Done once published (rarely edited) | Continuously edited and cultivated |
-| **Tone** | Formal, polished essays | Conversational, work-in-progress notes |
-| **Pace** | High-pressure release cycles | Low-pressure slow growth |
+Instead of letting good thoughts disappear, I write them down here so I can revisit, refine, and build on them over time.
 
+## What you'll find here
+
+- 📚 Book notes and key takeaways
+- 💡 Ideas and random curiosities
+- 🧠 Things I've learned
+- 💼 Business concepts and experiments
+- 🌱 Personal growth and life lessons
+- 🌍 Travel experiences
+- 🎨 Creativity, art, and inspiration
+- 🛠 Practical guides and playbooks
+- 📖 Reflections and thoughts
+
+## Why?
+
+My goal isn't to know everything—it's to remember what matters.
+
+Writing helps me:
+- Think more clearly.
+- Learn more deeply.
+- Connect ideas across different topics.
+- Create a searchable archive of my knowledge.
+- Share useful insights with others.
+
+This repository is a living document that will continue to grow as I read, explore, build, and learn.
+
+> *"Learn. Reflect. Connect. Repeat."*
 ---
-
-## 🛠️ The Tech Stack
-
-This garden is built using:
-- **Obsidian**: A powerful local-first Markdown note editor that makes bi-directional links seamless.
-- **Quartz v4**: A fast static site generator that compiles Obsidian vaults into search-friendly websites.
-- **GitHub Pages**: Free hosting triggered automatically by GitHub Actions.
-
-> [!IMPORTANT]
-> Because Quartz understands native Obsidian Markdown, you don't need to change how you write in Obsidian. Just write your notes, link them together using standard brackets, and sync!
-
----
-
 [[index|Back to Home]]
