@@ -1,35 +1,43 @@
 ---
-title: "🌱 My Digital Garden"
+title: "Nimi's Knowledge Repo"
 ---
 
-# Welcome to My Digital Garden
+# Welcome 🌿
 
-Hello! This is a public space where I share my thoughts, projects, and learning notes. Unlike a traditional blog, this garden grows organically over time, with ideas branching out and linking together.
+## What is this?
 
-> [!NOTE]
-> **Digital Gardening** is an approach to publishing on the web where notes are treated as plants: they start as small seeds, get cultivated over time, and form a dense web of interconnected thoughts.
+This is my personal knowledge repository—a place where I collect ideas, lessons, observations, and experiences worth remembering.
+
+Instead of letting good thoughts disappear, I write them down here so I can revisit, refine, and build on them over time.
+
+## What you'll find here
+
+- 📚 Book notes and key takeaways
+- 💡 Ideas and random curiosities
+- 🧠 Things I've learned
+- 🌍 Experiences
+- 💼 Business concepts and experiments
+- 🌱 Personal growth and life lessons
+- 🎨 Creativity, art, and inspiration
+- 🛠 Practical guides and playbooks
+- 📖 Reflections and thoughts
+
+## Why?
+
+My goal isn't to know everything—it's to remember what matters.
+
+Writing helps me:
+- Think more clearly.
+- Learn more deeply.
+- Connect ideas across different topics.
+- Create a searchable archive of my knowledge.
+- Share useful insights with others.
+
+This repository is a living document that will continue to grow as I read, explore, build, and learn.
+
+> *"Learn. Reflect. Connect. Repeat."*
 
 ---
 
 ## 🧭 Navigation
-
-Feel free to wander around and explore. Here are a few places to start:
-
-- **[[About]]**: Who I am, what I do, and how to get in touch.
-- **[[Digital Gardening]]**: Why I build this garden, how I set it up, and my personal note-taking philosophy.
-
----
-
-## 🧠 Core Philosophy
-
-My note-taking is centered around a few simple habits:
-- **Bi-directional Linking**: Every note belongs to a larger web of concepts.
-- **Atomic Notes**: Each note covers one single idea completely, keeping it modular and readable.
-- **Continuous Cultivation**: Notes are constantly edited, refined, and updated as my understanding deepens.
-
-> [!TIP]
-> Use the **Graph View** on the right side of the screen to visualize how all these notes connect to each other. You can hover over nodes to see a preview of their content!
-
----
-
-*“The garden suggests a different relationship to time... it’s about slow, continuous growth.”*
+- **[[About|About Me]]**
