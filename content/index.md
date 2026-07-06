@@ -1,6 +1,7 @@
 ---
 title: "Nimi's Knowledge Repo"
 ---
+<!-- trigger deploy -->
 
 # Welcome 🌿
 
