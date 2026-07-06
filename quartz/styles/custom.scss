@@ -1,0 +1,111 @@
+@use "./variables.scss" as *;
+
+// Global transitions and scrollbar styling
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--light);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--lightgray);
+  border-radius: 5px;
+  border: 2px solid var(--light);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--gray);
+}
+
+// Custom Premium Sidebar & Header Enhancements
+.left.sidebar, .right.sidebar {
+  padding: 1.5rem;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  margin-bottom: 1.5rem;
+}
+
+// Enhance internal wiki-links (Obsidian links)
+a.internal {
+  text-decoration: none;
+  background-image: linear-gradient(var(--secondary), var(--secondary));
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.25s ease-in-out;
+  border-bottom: 1px dashed rgba(99, 102, 241, 0.3);
+
+  &:hover {
+    color: var(--tertiary);
+    background-size: 100% 2px;
+    border-bottom: 1px solid transparent;
+  }
+}
+
+// Callouts optimization
+.callout {
+  border-radius: 12px !important;
+  border-left: 5px solid var(--secondary) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background: var(--highlight) !important;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  }
+}
+
+// Graph view styling
+.graph-outer {
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid var(--lightgray);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+// Page title styling
+.page-title a {
+  font-family: var(--headerFont);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  background: linear-gradient(135deg, var(--secondary), var(--tertiary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: opacity 0.2s ease;
+
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+// Darkmode button micro-animation
+#darkmode-btn {
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 0.5rem;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background: var(--lightgray);
+    transform: rotate(20deg);
+  }
+}
+
+// Premium Codeblock style
+pre {
+  border-radius: 12px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+  border: 1px solid var(--lightgray) !important;
+}
+
