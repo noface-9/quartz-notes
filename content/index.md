@@ -7,9 +7,9 @@ title: "Nimi's Knowledge Repo"
 
 ## What is this?
 
-This is my personal knowledge repository—a place where I collect ideas, lessons, observations, and experiences worth remembering.
+My personal knowledge repo — a place to collect my ideas, observations, and experiences worth remembering.
 
-Instead of letting good thoughts disappear, I write them down here so I can revisit, refine, and build on them over time.
+Instead of letting my absurd thoughts disappear, I write them down here so I can revisit them over time.
 
 ## What you'll find here
 
@@ -25,16 +25,14 @@ Instead of letting good thoughts disappear, I write them down here so I can revi
 
 ## Why?
 
-My goal isn't to know everything—it's to remember what matters.
+I am an avid note-taker. Most of my notes are illegible and scattered, which is why I decided to try out this garden concept. 
 
-Writing helps me:
-- Think more clearly.
-- Learn more deeply.
-- Connect ideas across different topics.
-- Create a searchable archive of my knowledge.
-- Share useful insights with others.
+Writing helps me?
+- Reflect
 
-This repository is a living document that will continue to grow as I read, explore, build, and learn.
+I heard somewhere that this world is full of facts and stories. At the end, what matters is not how much we know but what we learn and do with them. 
+
+I will breathe life into this repo as it continues to grow with everything I read, explore and learn.
 
 > *"Learn. Reflect. Connect. Repeat."*
 
