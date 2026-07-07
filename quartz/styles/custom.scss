@@ -1,13 +1,30 @@
 @use "./variables.scss" as *;
 
-// Global transitions and scrollbar styling
+// Global typography and scrollbar customization
 html {
   scroll-behavior: smooth;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
 }
 
+body {
+  line-height: 1.75;
+  letter-spacing: -0.01em;
+  background-color: var(--light);
+  color: var(--darkgray);
+}
+
+// Elegant Serif Headings
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--headerFont);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: var(--dark);
+}
+
+// Custom beige/warm scrollbar
 ::-webkit-scrollbar {
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
 }
 
 ::-webkit-scrollbar-track {
@@ -16,7 +33,7 @@ html {
 
 ::-webkit-scrollbar-thumb {
   background: var(--lightgray);
-  border-radius: 5px;
+  border-radius: 10px;
   border: 2px solid var(--light);
 }
 
@@ -24,88 +41,147 @@ html {
   background: var(--gray);
 }
 
-// Custom Premium Sidebar & Header Enhancements
+// Modern Spacious Card Layout for sidebars and content blocks
 .left.sidebar, .right.sidebar {
-  padding: 1.5rem;
+  padding: 2rem;
   background: var(--light);
   border: 1px solid var(--lightgray);
-  border-radius: 16px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+  border-radius: 24px;
+  box-shadow: 0 4px 20px rgba(110, 88, 67, 0.02);
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
+
+  &:hover {
+    box-shadow: 0 10px 30px rgba(110, 88, 67, 0.05);
+    border-color: rgba(110, 88, 67, 0.2);
+  }
 }
 
-// Enhance internal wiki-links (Obsidian links)
+// Gentle, clean wiki-links (Obsidian links)
 a.internal {
   text-decoration: none;
   background-image: linear-gradient(var(--secondary), var(--secondary));
   background-position: 0% 100%;
   background-repeat: no-repeat;
-  background-size: 0% 2px;
-  transition: background-size 0.25s ease-in-out;
-  border-bottom: 1px dashed rgba(99, 102, 241, 0.3);
+  background-size: 0% 1.5px;
+  transition: background-size 0.25s ease-in-out, color 0.2s ease;
+  border-bottom: 1px dashed rgba(110, 88, 67, 0.25);
+  color: var(--secondary);
 
   &:hover {
     color: var(--tertiary);
-    background-size: 100% 2px;
+    background-size: 100% 1.5px;
     border-bottom: 1px solid transparent;
   }
 }
 
-// Callouts optimization
+// Premium rounded callouts (info/tips blocks)
 .callout {
-  border-radius: 12px !important;
-  border-left: 5px solid var(--secondary) !important;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-radius: 16px !important;
+  border-left: 4px solid var(--secondary) !important;
+  box-shadow: 0 4px 15px rgba(110, 88, 67, 0.02);
+  transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.2s ease;
   background: var(--highlight) !important;
+  border: 1px solid var(--lightgray);
+  padding: 1.25rem !important;
 
   &:hover {
     transform: translateY(-2px);
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 8px 24px rgba(110, 88, 67, 0.06);
   }
+}
+
+// Custom Glassmorphic Popovers (Previews on link hover)
+.popover {
+  border-radius: 20px !important;
+  border: 1px solid var(--lightgray) !important;
+  background: rgba(253, 251, 247, 0.95) !important;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 10px 40px rgba(110, 88, 67, 0.08) !important;
 }
 
 // Graph view styling
 .graph-outer {
-  border-radius: 16px;
+  border-radius: 24px;
   overflow: hidden;
   border: 1px solid var(--lightgray);
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
-}
-
-// Page title styling
-.page-title a {
-  font-family: var(--headerFont);
-  font-weight: 800;
-  letter-spacing: -0.03em;
-  background: linear-gradient(135deg, var(--secondary), var(--tertiary));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transition: opacity 0.2s ease;
-
-  &:hover {
-    opacity: 0.9;
-  }
-}
-
-// Darkmode button micro-animation
-#darkmode-btn {
-  cursor: pointer;
-  border-radius: 50%;
-  padding: 0.5rem;
+  box-shadow: 0 4px 20px rgba(110, 88, 67, 0.02);
   transition: all 0.3s ease;
 
   &:hover {
-    background: var(--lightgray);
-    transform: rotate(20deg);
+    border-color: rgba(110, 88, 67, 0.2);
+    box-shadow: 0 10px 30px rgba(110, 88, 67, 0.05);
   }
 }
 
-// Premium Codeblock style
-pre {
-  border-radius: 12px !important;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
-  border: 1px solid var(--lightgray) !important;
+// Page title branding
+.page-title a {
+  font-family: var(--headerFont);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  color: var(--dark);
+  font-size: 1.6rem;
+  transition: opacity 0.2s ease;
+
+  &:hover {
+    opacity: 0.8;
+  }
 }
 
+// Darkmode button capsule
+#darkmode-btn {
+  cursor: pointer;
+  border-radius: 9999px;
+  padding: 0.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
+
+  &:hover {
+    background: var(--lightgray);
+    border-color: rgba(110, 88, 67, 0.1);
+  }
+}
+
+// Clean minimalist Code blocks
+pre {
+  border-radius: 16px !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03) !important;
+  border: 1px solid var(--lightgray) !important;
+  padding: 1.25rem !important;
+}
+
+code {
+  font-family: var(--codeFont);
+  font-size: 0.9em;
+  background: var(--highlight);
+  padding: 0.2em 0.4em;
+  border-radius: 6px;
+}
+
+// Styled tags
+.tag-link {
+  border-radius: 9999px !important;
+  padding: 0.2rem 0.8rem !important;
+  font-size: 0.85em !important;
+  background-color: var(--lightgray) !important;
+  color: var(--darkgray) !important;
+  border: 1px solid transparent !important;
+  transition: all 0.2s ease !important;
+
+  &:hover {
+    background-color: var(--secondary) !important;
+    color: var(--light) !important;
+  }
+}
+
+// Minimalist thin divider lines
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), var(--lightgray), rgba(0, 0, 0, 0));
+  margin: 2.5rem 0;
+}

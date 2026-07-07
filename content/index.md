@@ -42,3 +42,4 @@ This repository is a living document that will continue to grow as I read, explo
 
 ## 🧭 Navigation
 - **[[About|About Me]]**
+- **[[Digital Garden Guide|📖 Owner's Manual & Guide]]**

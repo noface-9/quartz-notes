@@ -16,29 +16,29 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Outfit
-      body: Inter
+      header: Lora
+      body: Instrument Sans
       code: Fira Code
     colors:
       lightMode:
-        light: "#f8fafc"
-        lightgray: "#e2e8f0"
-        gray: "#64748b"
-        darkgray: "#334155"
-        dark: "#0f172a"
-        secondary: "#4f46e5"
-        tertiary: "#818cf8"
-        highlight: "rgba(99, 102, 241, 0.08)"
+        light: "#fdfbf7"
+        lightgray: "#f1ebe4"
+        gray: "#8c7f73"
+        darkgray: "#3b342f"
+        dark: "#1c140f"
+        secondary: "#6e5843"
+        tertiary: "#967f6b"
+        highlight: "rgba(110, 88, 67, 0.05)"
         textHighlight: "#fff23688"
       darkMode:
-        light: "#0b0f19"
-        lightgray: "#1e293b"
-        gray: "#64748b"
-        darkgray: "#e2e8f0"
-        dark: "#f8fafc"
-        secondary: "#818cf8"
-        tertiary: "#d946ef"
-        highlight: "rgba(99, 102, 241, 0.15)"
+        light: "#181412"
+        lightgray: "#2c231e"
+        gray: "#807166"
+        darkgray: "#eae1d8"
+        dark: "#f9f6f0"
+        secondary: "#c7b5a3"
+        tertiary: "#dfd2c4"
+        highlight: "rgba(199, 181, 163, 0.1)"
         textHighlight: "#b3aa0288"
 plugins:
   - source: github:quartz-community/created-modified-date
