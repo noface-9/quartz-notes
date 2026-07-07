@@ -109,6 +109,21 @@ git push origin main
 
 ---
 
+## 💻 Local Preview (Before Publishing)
+
+Before pushing your changes to GitHub, you can preview exactly how they will look on your computer:
+
+1. Open your macOS Terminal inside `/Users/nimilithagurram/.gemini/antigravity/scratch/quartz-notes`.
+2. Run the local preview server command:
+   ```bash
+   npx quartz build --serve
+   ```
+3. Open your browser and go to **`http://localhost:8080`**.
+4. Any changes you make to your notes in Obsidian will compile instantly and refresh in your browser!
+5. To stop the local server, press `Ctrl + C` in your terminal.
+
+---
+
 ## 🔍 Monitoring and Verifying Deployments
 
 Once you run `git push`, the site will automatically rebuild and deploy. 
@@ -135,4 +150,8 @@ Your changes will be live within 1 minute of a successful build at:
 
 * **Broken links?** Make sure your bracket names match your file names exactly (case-insensitive, but spelling matters).
 * **Build fails with `Failed to resolve...`?** Double-check that you haven't linked to a note that you deleted or forgot to add.
-* **Changes not showing up?** Press `Cmd + Shift + R` (or `Ctrl + F5` on Windows) to force-refresh your browser cache.
+* **Changes not showing up live (CDN Propagation Delay)?** Even after GitHub Actions displays a green checkmark, GitHub's global CDN (Content Delivery Network) nodes can take **1 to 3 minutes** to sync and push the update to your region.
+* **Browser Caching (Crucial)?** Browsers cache GitHub Pages for up to **10 minutes** to speed up loads. If you visit the site and see the old version, force your browser to clear its cache and fetch the fresh page:
+  * **Mac**: `Cmd` + `Shift` + `R` (in Chrome/Safari)
+  * **Windows**: `Ctrl` + `F5`
+* **404 Not Found?** Make sure you do not include a trailing slash `/` at the end of the URL (e.g., visit `/about` instead of `/about/`).
