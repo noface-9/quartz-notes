@@ -2,7 +2,7 @@
 title: "About Nimi"
 ---
 
-![Nimi](./images/Nimi.jpg)
+<img src="./images/Nimi.jpg" width="300" style="height: auto; border-radius: 16px; display: block; margin-bottom: 1.5rem;" alt="Nimi" />
 
 # Who am I?
 
