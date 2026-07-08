@@ -1,5 +1,5 @@
 ---
-title: "Butter by Asako Yuzuki - Themes & Key Takeaways"
+title: "Butter by Asako Yuzuki"
 ---
 
 # Why am I writing this?
