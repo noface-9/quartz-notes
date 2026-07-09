@@ -42,3 +42,5 @@ I will breathe life into this repo as it continues to grow with everything I rea
 - **[[About|About Me]]**
 - **[[Digital Garden Guide|📖 Owner's Manual & Guide]]**
 - **[[books|Books]]**
+- **[[articles|Articles]]**
+- **[[music|Music]]**
