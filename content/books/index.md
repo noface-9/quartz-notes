@@ -19,5 +19,5 @@ These are books that have shaped my thinking. Rather than writing traditional re
 ---
 
 ## 🧭 Navigation
-[[About|About Me]]
-[[index|Back to Home]]
+- **[[About|About Me]]**
+- **[[index|Back to Home]]**

@@ -183,6 +183,6 @@ We cannot just take the happy parts and discard everything else. All different i
 
 ---
 
-[[books]]
-[[index|Back to Home]]
+- **[[books]]**
+- **[[index|Back to Home]]**
 
