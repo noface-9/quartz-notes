@@ -128,6 +128,8 @@ Maintain muscle mass as you age
 
 ---
 
-- **[[fitness|Fitness]]**
+- **[[fitness|Fitness]]** 
+- **[[daily_journal|Daily Journal]]** 
+- **[[weekly_reflection|Weekly Reflection]]** 
 - **[[index|Back to Home]]**
 

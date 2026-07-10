@@ -20,5 +20,6 @@ title: "Fitness Journal"
 
 - **[[fitness|Fitness]]**
 - **[[fitness_goals|Fitness Goals]]**
+- **[[weekly_reflection|Weekly Reflection]]** 
 - **[[index|Back to Home]]**
 
