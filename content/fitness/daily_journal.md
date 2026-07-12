@@ -12,8 +12,11 @@ title: "Fitness Journal"
 - What felt difficult
 - Small wins
 
-##### 11th July 2026
-
+##### 12th July 2026
+- Endurance - 5km in 45 mins (walk/run alternates)
+- Energy: 8
+- Mood: Elated
+- Sleep: 8 hours
 
 
 ---
