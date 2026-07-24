@@ -134,7 +134,7 @@ We have too many biases - not possible to build Circle of Competence without out
 > Ignorance more often begets confidence than knowledge
 
 **Theory of Falsifiability by Karl Popper**
-A theory is part of empirical science if and only if it conflicts with possible experiences 13and is therefore in principle falsifiable by experience.
+A theory is part of empirical science if and only if it conflicts with possible experiences and is therefore in principle falsifiable by experience.
 A scientific theory must be testable in a way that allows reality to prove it wrong. If nothing could ever disprove it, it's not science.
 Good theory must have an element of risk (of being wrong) to it. 
 
@@ -401,16 +401,21 @@ Ex: Vasili Arkhipov single-handedly avoided nuclear war with the Americans
 ---
 
 Questions to ask myself:
-1. What conflicts with my beliefs? - advice - notice things "which easily escape attention" and why things happened. 
-
-
-
-
+1. What conflicts with my beliefs? Notice things "which easily escape attention" and why things happened. 
+2. When do I get defensive? Tells me where my ego is halting my progress in life. 
+3. Make sure I have strict monitoring & seek feedback on my endeavours. 
+4. Which areas do I consciously want to build my circle of competence?
+5. Am I applying Socratic thinking as a general framework of thought?
+6. How do I apply inversion and make the most of my time?
+7. In becoming Anti-fragile am I using upside optionality principle to my benefit?
 
 
 ---
 
 - **[[books|Books]]**
 - **[[modern_failure|Article that inspired me to write this]]**
+- **[[mental_models_vol2_physics|Mental Models Volume 2: Physics]]**
+- **[[mental_models_vol2_chemistry|Mental Models Volume 2: Chemistry]]**
+- **[[mental_models_vol2_biology|Mental Models Volume 2: Biology]]**
 - **[[index|Back to Home]]**
 

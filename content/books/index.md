@@ -15,7 +15,10 @@ These are books that have shaped my thinking. Rather than writing traditional re
 ### Reviews
 
 - [[Butter]]
-
+- [[mental_models|Mental Models Volume 1]]
+- [[mental_models_vol2_physics|Mental Models Volume 2: Physics]]
+- [[mental_models_vol2_chemistry|Mental Models Volume 2: Chemistry]]
+- [[mental_models_vol2_biology|Mental Models Volume 2: Biology]]
 ---
 
 ## 🧭 Navigation

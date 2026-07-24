@@ -24,7 +24,7 @@ Beyond Carnatic music, I enjoy just about everything—pop, indie, country, EDM,
 
 - [[sarali_varisai]]
 - [[muddugare]]
-
+- [[vasudeva]]
 I don't claim any of this to be me mine. These are just my notes compiled as a learner. 
 
 ---
